@@ -14,22 +14,22 @@ public class GradeConverterTest {
 
     @Test
     public void testConvert1() {
-        String expected = "A";
-        String actual = converter.convert(100);
-        assertEquals(expected, actual);
+        String expected  =  "A";
+        String actual  =  converter.convert(100);
+        assertEquals(expected,         actual);
     }
 
     @Test
     public void testConvert2() {
         String expected = "A";
-        String actual = converter.convert(90);
+        String actual =         converter.convert(90);
         assertEquals(expected, actual);
     }
 
     @Test
-    public void testConvert3() {
+    public void testConvert3(                                                       ) {
         String expected = "Invalid";
-        String actual = converter.convert(-10);
+        String actual =                           converter.convert(-10);
         assertEquals(expected, actual);
     }
 }
